@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "Task Management System"
+  },
+  "auth": {
+    "login_title": "Log in to your account",
+    "register_title": "Create a new account",
+    "email": "Email",
+    "email_placeholder": "Enter your email",
+    "name": "Name",
+    "name_placeholder": "Enter your name",
+    "password": "Password",
+    "password_placeholder": "Enter your password",
+    "confirm_password": "Confirm Password",
+    "confirm_password_placeholder": "Re-enter your password",
+    "login_button": "Log In",
+    "register_button": "Register",
+    "register_link": "Don't have an account? Register here",
+    "login_link": "Already have an account? Log in here",
+    "logout": "Log Out",
+    "password_mismatch": "Passwords do not match",
+    "register_success": "Registration successful",
+    "register_error": "Registration failed",
+    "login_error": "Login failed",
+    "validation": {
+      "required": "{field} is required",
+      "email": "Please enter a valid email address",
+      "min": "{field} must be at least {length} characters long",
+      "password_mismatch": "Passwords do not match"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome"
+  },
+  "tasks": {
+    "my_tasks": "My Tasks",
+    "no_tasks": "No tasks found. Create your first task!",
+    "edit": "Edit",
+    "delete": "Delete",
+    "mark_as_completed": "Mark as Completed",
+    "mark_as_pending": "Mark as Pending",
+    "title": "Title",
+    "title_placeholder": "Enter task title",
+    "description": "Description",
+    "description_placeholder": "Enter task description",
+    "status_filed": "Status",
+    "edit_task": "Edit Task",
+    "create_task": "Create Task",
+    "status_field": "Status",
+    "status": {
+      "all": "All",
+      "pending": "Pending",
+      "completed": "Completed",
+      "priority": "Priority"
+    },
+    "validation": {
+      "title_required": "Title is required",
+      "title_max_length": "Title must be less than 100 characters",
+      "description_max_length": "Description must be less than 500 characters",
+      "invalid_status": "Invalid status value"
+    },
+    "failed_to_fetched": "Failed to fetch tasks",
+    "failed_to_save": "Failed to save task",
+    "failed_to_delete": "Failed to delete task",
+    "failed_to_update": "Failed to update task",
+    "status_update_success": "Task status updated successfully",
+    "delete_success": "Task deleted successfully",
+    "save_success": "Task saved successfully"
+  },
+  "not_found": {
+    "message": "The page you're looking for doesn't exist.",
+    "go_home": "Go to Dashboard"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "create": "Create",
+    "update": "Update"
+  }
+}

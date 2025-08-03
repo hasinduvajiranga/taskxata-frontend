@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "タスク管理システム"
+  },
+  "auth": {
+    "login_title": "アカウントにログイン",
+    "register_title": "新しいアカウントを作成",
+    "email": "メールアドレス",
+    "email_placeholder": "メールアドレスを入力してください",
+    "name": "名前",
+    "name_placeholder": "名前を入力してください",
+    "password": "パスワード",
+    "password_placeholder": "パスワードを入力してください",
+    "confirm_password": "パスワード確認",
+    "confirm_password_placeholder": "パスワードを再入力してください",
+    "login_button": "ログイン",
+    "register_button": "登録",
+    "register_link": "アカウントをお持ちでないですか？こちらから登録",
+    "login_link": "すでにアカウントをお持ちですか？ログイン",
+    "logout": "ログアウト",
+    "password_mismatch": "パスワードが一致しません",
+    "register_success": "登録に成功しました",
+    "register_error": "登録に失敗しました",
+    "login_error": "ログインに失敗しました",
+    "validation": {
+      "required": "{field}は必須です",
+      "email": "有効なメールアドレスを入力してください",
+      "min": "{field}は少なくとも{length}文字以上である必要があります",
+      "password_mismatch": "パスワードが一致しません"
+    }
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "welcome": "ようこそ"
+  },
+  "tasks": {
+    "my_tasks": "マイタスク",
+    "no_tasks": "タスクが見つかりません。最初のタスクを作成しましょう！",
+    "edit": "編集",
+    "delete": "削除",
+    "mark_as_completed": "完了としてマーク",
+    "mark_as_pending": "保留としてマーク",
+    "title": "タイトル",
+    "title_placeholder": "タスクのタイトルを入力してください",
+    "description": "説明",
+    "description_placeholder": "タスクの説明を入力してください",
+    "status_filed": "ステータス",
+    "edit_task": "タスクを編集",
+    "create_task": "タスクを作成",
+    "status_field": "ステータス",
+    "status": {
+      "all": "すべて",
+      "pending": "保留",
+      "completed": "完了"
+    },
+    "validation": {
+      "title_required": "タイトルは必須です",
+      "title_max_length": "タイトルは100文字未満である必要があります",
+      "description_max_length": "説明は500文字未満である必要があります",
+      "invalid_status": "無効なステータス値です"
+    },
+    "failed_to_fetched": "タスクの取得に失敗しました",
+    "failed_to_save": "タスクの保存に失敗しました",
+    "failed_to_delete": "タスクの削除に失敗しました",
+    "failed_to_update": "タスクの更新に失敗しました",
+    "status_update_success": "タスクステータスが正常に更新されました",
+    "delete_success": "タスクが正常に削除されました",
+    "save_success": "タスクが正常に保存されました"
+  },
+  "not_found": {
+    "message": "お探しのページは存在しません。",
+    "go_home": "ダッシュボードに戻る"
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "create": "作成",
+    "update": "更新"
+  }
+}

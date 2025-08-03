@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "කාර්ය කළමනාකරණ පද්ධතිය"
+  },
+  "auth": {
+    "login_title": "ඔබගේ ගිණුමට පිවිසෙන්න",
+    "register_title": "නව ගිණුමක් සාදන්න",
+    "email": "ඊමේල්",
+    "email_placeholder": "ඔබගේ ඊමේල් ඇතුළත් කරන්න",
+    "name": "නම",
+    "name_placeholder": "ඔබගේ නම ඇතුළත් කරන්න",
+    "password": "මුරපදය",
+    "password_placeholder": "ඔබගේ මුරපදය ඇතුළත් කරන්න",
+    "confirm_password": "මුරපදය තහවුරු කරන්න",
+    "confirm_password_placeholder": "මුරපදය නැවත ඇතුළත් කරන්න",
+    "login_button": "පිවිසෙන්න",
+    "register_button": "ලියාපදිංචි වන්න",
+    "register_link": "ගිණුමක් නැද්ද? ලියාපදිංචි වන්න",
+    "login_link": "දැනටමත් ගිණුමක් තිබේද? පිවිසෙන්න",
+    "logout": "නික්මෙන්න",
+    "password_mismatch": "මුරපද නොගැලපේ",
+    "register_success": "ලියාපදිංචි වීම සාර්ථකයි",
+    "register_error": "ලියාපදිංචි වීම අසාර්ථකයි",
+    "login_error": "පිවිසීම අසාර්ථකයි",
+    "validation": {
+      "required": "{field} අවශ්යයි",
+      "email": "කරුණාකර වලංගු ඊමේල් ලිපිනයක් ඇතුළත් කරන්න",
+      "min": "{field} අවම වශයෙන් {length} අක්ෂර දිගකින් යුක්ත විය යුතුය",
+      "password_mismatch": "මුරපද නොගැලපේ"
+    }
+  },
+  "dashboard": {
+    "title": "ප්\u200Dරධාන පුවරුව",
+    "welcome": "සාදරයෙන් පිළිගනිමු"
+  },
+  "tasks": {
+    "my_tasks": "මගේ කාර්යයන්",
+    "no_tasks": "කාර්යයන් හමු නොවීය. ඔබගේ පළමු කාර්යය සාදන්න!",
+    "edit": "සංස්කරණය කරන්න",
+    "delete": "මකන්න",
+    "mark_as_completed": "සම්පූර්ණ කළ ලෙස සලකුණු කරන්න",
+    "mark_as_pending": "පොරොත්තුවෙන් ඇති ලෙස සලකුණු කරන්න",
+    "title": "මාතෘකාව",
+    "title_placeholder": "කාර්යයේ මාතෘකාව ඇතුළත් කරන්න",
+    "description": "විස්තරය",
+    "description_placeholder": "කාර්යයේ විස්තරය ඇතුළත් කරන්න",
+    "status_filed": "තත්වය",
+    "edit_task": "කාර්යය සංස්කරණය කරන්න",
+    "create_task": "කාර්යය සාදන්න",
+    "status_field": "තත්වය",
+    "status": {
+      "all": "සියල්ල",
+      "pending": "පොරොත්තුවෙන් ඇත",
+      "completed": "සම්පූර්ණයි"
+    },
+    "validation": {
+      "title_required": "මාතෘකාව අවශ්යයි",
+      "title_max_length": "මාතෘකාව අක්ෂර 100 ට වඩා අඩු විය යුතුය",
+      "description_max_length": "විස්තරය අක්ෂර 500 ට වඩා අඩු විය යුතුය",
+      "invalid_status": "වලංගු නොවන තත්ව අගය"
+    },
+    "failed_to_fetched": "කාර්යයන් ලබා ගැනීම අසාර්ථකයි",
+    "failed_to_save": "කාර්යය සුරැකීම අසාර්ථකයි",
+    "failed_to_delete": "කාර්යය මැකීම අසාර්ථකයි",
+    "failed_to_update": "කාර්යය යාවත්කාලීන කිරීම අසාර්ථකයි",
+    "status_update_success": "කාර්ය තත්වය සාර්ථකව යාවත්කාලීන කරන ලදී",
+    "delete_success": "කාර්යය සාර්ථකව මකා ඇත",
+    "save_success": "කාර්යය සාර්ථකව සුරකින ලදී"
+  },
+  "not_found": {
+    "message": "ඔබ සොයන පිටුව නොමැත.",
+    "go_home": "ප්\u200Dරධාන පුවරුවට යන්න"
+  },
+  "common": {
+    "cancel": "අවලංගු කරන්න",
+    "create": "සාදන්න",
+    "update": "යාවත්කාලීන කරන්න"
+  }
+}
