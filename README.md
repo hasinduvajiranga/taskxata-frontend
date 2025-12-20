@@ -11,9 +11,6 @@
 
 ## Installation
 
-```bash
-cd cryptoworth-ta-frontend
-
 # Copy .env and configure
 cp .env.example .env
 
