@@ -83,7 +83,7 @@ const selectedTask = ref(null)
 const isLoading = computed(() => taskStore.isLoading)
 const error = ref(null)
 const currentFilter = ref('all')
-const tasks = computed(() => taskStore.tasks)
+const tasks = computed(() => taskStore.filteredTasks)
 
 onMounted(async () => {
   await fetchTasks()
