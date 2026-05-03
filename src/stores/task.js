@@ -9,6 +9,16 @@ export const useTaskStore = defineStore('task', {
         currentFilter: 'all'
     }),
 
+    getters: {
+        filteredTasks: (state) => {
+            if (state.currentFilter === 'all') return state.tasks
+            if (state.currentFilter === 'priority') {
+                return state.tasks.filter(task => task.priority === 'high')
+            }
+            return state.tasks.filter(task => task.status === state.currentFilter)
+        }
+    },
+
     actions: {
         async fetchTasks(filter = null) {
             this.isLoading = true

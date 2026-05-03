@@ -5,21 +5,27 @@ import App from './App.vue'
 import router from './router'
 import './style.css'
 
-import enMessages from './assets/locales/en.json'
-import siMessages from './assets/locales/si.json'
-import jaMessages from './assets/locales/ja.json'
 import moshaToast from 'mosha-vue-toastify'
 import 'mosha-vue-toastify/dist/style.css'
 
+// Lazy load locale messages for better initial bundle size
+const loadLocaleMessages = async (locale) => {
+    const messages = {
+        en: () => import('./assets/locales/en.json'),
+        si: () => import('./assets/locales/si.json'),
+        ja: () => import('./assets/locales/ja.json')
+    }
+    return (await messages[locale]()).default
+}
 
 export const i18n = createI18n({
     legacy: false,
     locale: 'en', // default locale
     fallbackLocale: 'en',
     messages: {
-        en: enMessages,
-        si: siMessages,
-        ja: jaMessages
+        en: await loadLocaleMessages('en'),
+        si: await loadLocaleMessages('si'),
+        ja: await loadLocaleMessages('ja')
     }
 })
 

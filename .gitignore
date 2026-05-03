@@ -1,30 +1,59 @@
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
 # Logs
-logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
-*.local
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-/cypress/videos/
-/cypress/screenshots/
+# Coverage reports
+htmlcov/
+.coverage
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Distribution / packaging
+.Python
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
 
-*.tsbuildinfo
+# Unit test / coverage reports
+.junit.xml
+.testmondata/
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/settings.json
+
+# Vite build artifacts
+vite.config.js
+```

@@ -11,7 +11,7 @@
           >
             <span
                 class="badge badge-lg cursor-pointer"
-                :class="statusBadgeClass"
+                :class="statusClass"
             >
               {{ $t(`tasks.status.${task.status}`) }}
             </span>
@@ -73,10 +73,9 @@ const props = defineProps({
 
 const emit = defineEmits(['edit', 'delete', 'toggle-status'])
 
-const statusBadgeClass = computed(() => ({
+const statusClass = computed(() => ({
   'badge-success': props.task.status === 'completed',
-  'badge-warning': props.task.status === 'pending',
-  'hover:badge-outline': true
+  'badge-warning': props.task.status === 'pending'
 }))
 
 const toggleStatus = () => {
